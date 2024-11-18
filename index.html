@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scavenger Hunt</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Find the Treasure!</h1>
+  
+  <p id="hint1">Click the button below for your first clue.</p>
+  <button id="button1">Start</button>
+  
+  <p id="hint2" class="hidden">Hover over this text for the next clue!</p>
+  <div id="hoverBox" class="hidden">You found the next step! Now click me!</div>
+  
+  <input id="inputField" class="hidden" type="text" placeholder="Type here for a hint...">
+  <p id="finalHint" class="hidden">Congratulations! The treasure is near!</p>
+  
+  <img id="treasure" class="hidden" src="https://via.placeholder.com/150" alt="Treasure">
+  
+  <script src="script.js"></script>
+</body>
+</html>
